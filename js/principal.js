@@ -24,7 +24,7 @@ var tdImc = paciente.querySelector(".info-imc");
 
 var imc = peso / (altura * altura);
 
-if(!PesoValido && AlturaValida)
+if(PesoValido && AlturaValida)
   tdImc.textContent = imc;
 
 
