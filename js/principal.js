@@ -1,6 +1,4 @@
-console.error('Exibindo erro');
-console.info('Exibindo info');
-console.sucess('Exibindo sucesso');
+console.info('Aplicação carregada com sucesso!');
 document.querySelector('.titulo').textContent = 'Aparecida Nutricionista';
 
 var paciente = document.querySelector("#primeiro-paciente");
@@ -13,7 +11,7 @@ if(peso <= 0)
   console.log('Peso inválido');
 
 if(peso >= 800)
-  console.error('Peso Inválido')
+  console.log('Peso Inválido')
 
 var tdAltura = paciente.querySelector(".info-altura");
 var altura = tdAltura.textContent;
